@@ -1,0 +1,45 @@
+#mySketch {
+  width: 800px;
+  height: 250px;
+}
+
+main {
+  max-width: 1200px;
+  min-width: 800px;
+  margin: auto;
+  padding: 2em;
+}
+
+header {
+  margin: 1em;
+  margin-top: 30%;
+  margin-bottom: -15%;
+  display: block;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  padding-bottom: 2%;
+  justify-content: center;
+}
+
+body {
+  color: black;
+  font-family: 'Tangerine', cursive;
+  font-size: 1.7em;
+}
+
+section {
+  padding: 1em 2em;
+  padding-bottom: 5em;
+  margin: 1em;
+  background-color: #faf4f0;
+  width: 30%;
+}
+
+footer {
+  background-color: #faf4f0;
+  text-align: center;
+  padding: 1rem;
+}
