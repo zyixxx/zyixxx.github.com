@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Function Experiement</title>
+</head>
+
+<body>
+    <h1>Which Disney Princess Are You?</h1>
+    <h2>Win a prize if you're my favorite princess ~ (CAPITALIZED)</h2>
+
+    <script>
+        var number = prompt("What's your favorite number between 0 and 9", "");
+        function hi(num) {
+            var greeting;
+            if (parseInt(num)) {
+                greeting = "Perfect choice!";
+            }
+            else {
+                greeting = `Wow, ${num}... such a unique choice!`;
+            }
+            return greeting;
+        }
+
+        var princess = ['Ariel', 'Aurora', 'Belle', 'Cinderella', 'Jasmine', 'Merida', 'Moana', 'Mulan', 'Rapunzel', 'Pocahontas', 'Tiana', 'Snow White'];
+
+        function randomInt(min, max) {
+            return Math.floor((max - min + 1) * Math.random()) + min;
+        }
+
+        function result(num, prin) {
+            console.log(hi(num));
+            var newPrin = [];
+            for (i=0; i<prin.length; i++) {
+                if (i===11) {
+                    newPrin += prin[i].toUpperCase();
+                }
+                else {
+                    newPrin += prin[i]+ ",";
+                }
+            }
+            newPrin = newPrin.split(",");
+
+            var randomPrin = newPrin[randomInt(0,newPrin.length-1)];
+            console.log(`You are ${randomPrin} :)`);
+        }
+        result (number, princess);
+
+    </script>
+</body>
+
+</html>
