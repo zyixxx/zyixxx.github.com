@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gayathri|Oswald&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            DES157 HTML & CSS Challenge 1
+        </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>HTML and CSS Refresher Challenges</h1>
+        </header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"> HTML Basics </a>
+                </li>
+                <li>
+                    <a href="cssbasics.html"> CSS Basics </a>
+                </li>
+                <li>
+                    <a href="layout.html"> Page Layout </a>
+                </li>
+                <li>
+                    <a href="responsive.html"> Responsive Design </a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+                <article>
+                    <h2>About Media Queries</h2>
+                    <p>The media queries are a special syntax for CSS that allows us to define some styles that will only be applied in the case that defined conditions are met. We can assimilate them to optional lines of code, which will only be displayed for some users or devices. Min-width means greater than or equal to the width specified in that media query. Max-width means less than or equal to the width specified in that media query. The foundation should always be content and mobile first design emphasizes content over navigation – users get the information they need quicker. This will also make your life easier since mobile first design starts off with the tackling the hardest screen size to design for. The rest inevitably falls into place.</p>
+                </article>
+    
+                <article>
+                    <h2>Relative Units</h2>
+                    <p>Relative length units are relative to something else, perhaps the size of the parent element's font, or the size of the viewport. The benefit of using relative units is that with some careful planning you can make it so the size of text or other elements scale relative to everything else on the page. Em is relative to the font-size of the element (2em means 2 times the size of the current font). Vw is relative to 1% of the width of the viewport. Vh is relative to 1% of the height of the viewport. </p>
+                    <img src="images/diagram.png" alt="css box model diagram" width="600" height="462">
+                </article>
+    
+                <article class = "third">
+                    <h2>Meta Viewport Tag</h2>
+                    <p>A <meta> viewport element gives the browser instructions on how to control the page's dimensions and scaling.
+
+                        The width=device-width part sets the width of the page to follow the screen-width of the device (which will vary depending on the device).
+                        
+                        The initial-scale=1.0 part sets the initial zoom level when the page is first loaded by the browser. </p>
+                </article>
+        </main>
+        <footer>
+                <p>Page by Stella Zhang</p>
+                <p>HTML checked by Partner Name</p>
+                <p><a href="http://validator.w3.org/check?uri=referer">Valid HTML</a></p>
+        </footer>
+    </body>
+</html>
