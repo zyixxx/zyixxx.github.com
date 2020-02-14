@@ -1,21 +1,9 @@
-#mySketch {
-  width: 800px;
-  height: 250px;
-}
 
 main {
   max-width: 1200px;
   min-width: 800px;
   margin: auto;
-  padding: 2em;
-}
-
-header {
-  margin: 1em;
-  margin-top: 30%;
-  margin-bottom: -15%;
-  display: block;
-  justify-content: center;
+  width: 70%
 }
 
 article {
@@ -32,10 +20,10 @@ body {
 
 section {
   padding: 1em 2em;
-  padding-bottom: 5em;
-  margin: 1em;
+  padding-bottom: 3em;
+  margin: 0.5em;
   background-color: #faf4f0;
-  width: 30%;
+  width: 70%;
 }
 
 footer {

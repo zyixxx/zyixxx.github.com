@@ -1,14 +1,15 @@
 main {
-    max-width: 1200px;
-    min-width: 800px;
-    margin: auto;
-    padding: 2rem;
-  }
+  max-width: 1200px;
+  min-width: 800px;
+  margin: auto;
+  width: 70%
+}
 
 footer {
     background-color: #faf4f0;
     text-align: center;
     padding: 1rem;
+    margin-top: 4em;
   }
   
 body {
@@ -26,9 +27,19 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1.5em;
   }
 
   .name {
       text-align: right;
       margin-top: -2em;
+  }
+
+  .para {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 0.8em;
+  }
+
+  h2 {
+    margin-top: 2em;
   }
