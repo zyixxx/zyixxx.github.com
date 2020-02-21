@@ -3,7 +3,7 @@ main {
   max-width: 1200px;
   min-width: 800px;
   margin: auto;
-  width: 70%
+  width: 70%;
 }
 
 article {
@@ -30,4 +30,13 @@ footer {
   background-color: #faf4f0;
   text-align: center;
   padding: 1rem;
+}
+
+section ul li a, footer p a {
+  text-decoration: none;
+  color: black;
+}
+
+section ul li a:hover, footer p a:hover {
+  color: rgb(148, 112, 112);
 }

@@ -1,0 +1,70 @@
+#content {
+    height: 100%;
+    width: 100vw;
+    background-image: url('images/0.png');
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: right;
+}
+
+#box {
+    width: 45vw;
+    height: 111vh;
+    background-color: black;
+}
+
+#links a {
+    position: relative;
+    left: 18vw;
+    top: 180px;
+	display: block;
+    background:black;
+    width: 25vw;
+    height: 80px;
+	line-height: 80px;
+    color: #D5D5D5;
+    font-size: 15px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+    text-align: center; 
+    letter-spacing: 2px;
+}
+
+#links a:hover {
+    color: #fff;
+    font-size: 30px;
+    transition: 1s;
+}
+
+#Cover {
+    display: inline;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-decoration: none;
+    color: rgb(233, 186, 194);
+    font-family: 'Tangerine', cursive;
+}
+
+#Cover:hover {
+    color: rgb(192, 139, 139);
+    transition: 0.5s;
+}
+
+footer {
+    position: absolute;
+    top: 105vh;
+    left: 4vw;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    
+}
