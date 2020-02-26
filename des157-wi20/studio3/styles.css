@@ -1,0 +1,139 @@
+body {
+    background: rgb(255,178,205);
+    background: linear-gradient(90deg, rgba(255,178,205,1) 0%, rgba(255,255,255,1) 45%);
+    height: 100vh;
+}
+
+.logo {
+    position: relative;
+    left: 50vw;
+    top: 3vh;
+}
+p {
+    width: 21vw;
+    position: relative;
+    left: 11vw;
+    top: -14vh;
+    font-family: 'NTR';
+    line-height: 2rem;
+    font-size: large;
+    color: rgb(31, 31, 31);
+}
+main {
+    text-align: center;
+    position: relative;
+    left: 46vw;
+    top: -55vh;
+    width: 38vw;
+    height: 50vh;
+    border: 5px solid ;
+    border-radius: 70px;
+    padding: 1rem;
+    font-family: 'Comfortaa' ;
+}
+#startgame {
+    position: relative;
+    border: none;
+    text-decoration: underline;
+    font-size: small;
+    
+}
+#rollagain, #pass {
+    background-color: rgb(255,178,205);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: 2px solid rgb(255,178,205);
+    margin: 1rem;
+    width: 130px;
+    position: relative;
+}
+#roll {
+    background-color: rgb(255,178,205);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17.5px;
+    border: 2px solid rgb(255,178,205);
+    margin: 1rem;
+    position: relative;
+    top: -21vh;
+    border-radius: 85px;
+    height: 170px;
+}
+button {
+    transition-duration: 0.4s;
+}
+#rollagain:hover, #pass:hover, #roll:hover {
+    background-color: white;
+    color: rgb(255,178,205);
+}
+#game {
+    position: relative;
+    top: 9vh;
+    text-align: center;
+    height: 20vh;
+}
+#game p {
+    color: rgb(255,178,205);
+    position: relative;
+    left: 9vw;
+    line-height: 1rem;
+    padding-top: 0.7rem;
+}
+.dice {
+    padding: 2rem;
+    position: relative;
+    top: -16vh;
+}
+#quit {
+    position: relative;
+    top: 41.5vh;
+    border: none;
+    text-decoration: underline;
+    font-size: small;
+} 
+#quit:hover, #startgame:hover {
+    color: rgb(255,178,205);
+}
+#actions {
+    position: relative;
+    top: 1vh;
+}
+#score h2 {
+    font-family: 'Dancing Script' ;
+    position: relative;
+    top: 1.5vh;
+    color: rgb(255,178,205);
+}
+#score p {
+    position: absolute;
+    width: 23vw;
+    text-align: center;
+    left: 8.5vw;
+    top: 41.5vh;
+    font-family: 'Roboto Condensed';
+    font-size: 15px;
+}
+#gamecontrol {
+    position: relative;
+    top: -1vh;
+}
+footer {
+    position: relative;
+    top: -55vh;
+}
+footer p {
+    color: rgb(255,178,205);
+}
+footer p a {
+    text-decoration: none;
+    color: rgb(255,178,205);
+}
