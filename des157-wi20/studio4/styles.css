@@ -1,0 +1,118 @@
+#content {
+    height: 100%;
+    width: 100vw;
+    background-image: url('images/0.png');
+    background-size: cover;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+#box {
+    width: 45vw;
+    height: 111vh;
+    background-color: black;
+}
+
+#links a {
+    position: relative;
+    left: 17vw;
+    top: 180px;
+	display: block;
+    background:black;
+    width: 25vw;
+    height: 80px;
+	line-height: 80px;
+    color: #D5D5D5;
+    font-size: 15px;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+    text-align: center; 
+    letter-spacing: 2px;
+}
+
+#links a:hover {
+    color: #fff;
+    font-size: 30px;
+    transition: 1s;
+}
+
+#Cover {
+    display: inline;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    text-decoration: none;
+    color: rgb(233, 186, 194);
+    font-family: 'Tangerine', cursive;
+}
+
+#Cover:hover {
+    color: rgb(192, 139, 139);
+    transition: 0.5s;
+}
+
+#c1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: none;
+    position: absolute;
+    top: 23vh;
+    left: 66vw;
+}
+
+#c2 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: none;
+    position: absolute;
+    top: 51vh;
+    left: 77vw;
+}
+
+#c1, #c2 {
+	animation: blink 4s infinite;
+}
+@keyframes blink{
+	0%{		background-color: rgba(255, 255, 255, 0.918)	}
+	25%{	background-color: rgba(255, 255, 255, 0.342);	}
+	50%{	background-color: rgba(255, 255, 255, 0.911);	}
+	75%{	background-color: rgba(255, 255, 255, 0.377);	}
+	100%{	background-color: rgba(255, 255, 255, 0.911);	}
+}
+
+#fearofgod, #offwhite, #ralphlauren, #prada, #ysl, #chanel 
+{
+    display: none;
+    position: absolute;
+    top: 15vh;
+    left: 57vw;
+}
+
+#verawang, #versace, #givenchy, #alexander, #burberry, #gucci, #balenciaga {
+    display: none;
+    position: absolute;
+    top: 50vh;
+    left: 80vw;
+}
+
+footer {
+    position: absolute;
+    top: 105vh;
+    left: 4vw;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    
+}
