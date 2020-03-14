@@ -1,0 +1,465 @@
+#map {
+    height: 103vh;
+    width: 100vw;
+    background-image: url('images/map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#close {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 852px;
+    top: 278px;
+}
+
+#close:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#country a {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+#country a:hover {
+    font-size: 16px;
+}
+
+#Canada {
+    position: absolute;
+    top: 280px;
+    left: 243px;
+    font-size: 15px;
+}
+
+#UnitedStates {
+    position: absolute;
+    top: 384px;
+    left: 270px;
+    font-size: 13px;
+}
+
+#Mexico {
+    position: absolute;
+    top: 459px;
+    left: 290px;
+    font-size: 12px;
+}
+
+#Cuba {
+    position: absolute;
+    top: 468px;
+    left: 390px;
+    font-size: 10px;
+}
+
+#Venezuela {
+    position: absolute;
+    top: 526px;
+    left: 435px;
+    font-size: 8px;
+}
+
+#Colombia {
+    position: absolute;
+    top: 544px;
+    left: 410px;
+    font-size: 8px;
+}
+
+#Ecuador {
+    position: absolute;
+    top: 569px;
+    left: 395px;
+    font-size: 6px;
+}
+
+#Brazil {
+    position: absolute;
+    top: 599px;
+    left: 501px;
+    font-size: 13px;
+}
+
+#Argentina {
+    position: absolute;
+    top: 714px;
+    left: 440px;
+    font-size: 10px;
+}
+
+#Iceland {
+    position: absolute;
+    top: 255px;
+    left: 633px;
+    font-size: 7px;
+}
+
+#UnitedKingdom {
+    position: absolute;
+    top: 314px;
+    left: 680px;
+    font-size: 8px;
+}
+
+#France {
+    position: absolute;
+    top: 359px;
+    left: 718px;
+    font-size: 8px;
+}
+
+#Germany {
+    position: absolute;
+    top: 334px;
+    left: 747px;
+    font-size: 7px;
+}
+
+#Italy {
+    position: absolute;
+    top: 376px;
+    left: 760px;
+    font-size: 8px;
+}
+
+#Hungary {
+    position: absolute;
+    top: 358px;
+    left: 785px;
+    font-size: 6px;
+}
+
+#Ukraine {
+    position: absolute;
+    top: 342px;
+    left: 835px;
+    font-size: 8px;
+}
+
+#Belarus {
+    position: absolute;
+    top: 326px;
+    left: 820px;
+    font-size: 7px;
+}
+
+#Estonia {
+    position: absolute;
+    top: 298px;
+    left: 814px;
+    font-size: 5px;
+}
+
+#Turkey {
+    position: absolute;
+    top: 391px;
+    left: 850px;
+    font-size: 10px;
+}
+
+#Syria {
+    position: absolute;
+    top: 411px;
+    left: 867px;
+    font-size: 8px;
+}
+
+#Lebanon {
+    position: absolute;
+    top: 424px;
+    left: 850px;
+    font-size: 5px;
+}
+
+#Jordan {
+    position: absolute;
+    top: 434px;
+    left: 855px;
+    font-size: 6px;
+}
+
+#SaudiArabia {
+    position: absolute;
+    top: 457px;
+    left: 872px;
+    font-size: 9px;
+}
+
+#UnitedArabEmirates {
+    position: absolute;
+    top: 470px;
+    left: 930px;
+    font-size: 4px;
+}
+
+#Iran {
+    position: absolute;
+    top: 424px;
+    left: 930px;
+    font-size: 10px;
+}
+
+#Pakistan {
+    position: absolute;
+    top: 442px;
+    left: 975px;
+    font-size: 8px;
+}
+
+#India {
+    position: absolute;
+    top: 462px;
+    left: 1025px;
+    font-size: 12px;
+}
+
+#Bangladesh {
+    position: absolute;
+    top: 465px;
+    left: 1071px;
+    font-size: 5px;
+}
+
+#Kyrgyzstan {
+    position: absolute;
+    top: 380px;
+    left: 1005px;
+    font-size: 8px;
+}
+
+#Uzbekistan {
+    position: absolute;
+    top: 377px;
+    left: 945px;
+    font-size: 8px;
+}
+
+#Kazakhstan {
+    position: absolute;
+    top: 349px;
+    left: 975px;
+    font-size: 10px;
+}
+
+#Georgia {
+    position: absolute;
+    top: 386px;
+    left: 887px;
+    font-size: 5px;
+}
+
+#Armenia {
+    position: absolute;
+    top: 394px;
+    left: 888px;
+    font-size: 5px;
+}
+
+#Azervaijan {
+    position: absolute;
+    top: 394px;
+    left: 910px;
+    font-size: 4px;
+}
+
+#Morocco {
+    position: absolute;
+    top: 426px;
+    left: 684px;
+    font-size: 7px;
+}
+
+#Tunisia {
+    position: absolute;
+    top: 422px;
+    left: 750px;
+    font-size: 6px;
+}
+
+#Libya {
+    position: absolute;
+    top: 446px;
+    left: 780px;
+    font-size: 9px;
+}
+
+#Egypt {
+    position: absolute;
+    top: 454px;
+    left: 828px;
+    font-size: 9px;
+}
+
+#Sudan {
+    position: absolute;
+    top: 494px;
+    left: 828px;
+    font-size: 9px;
+}
+
+#Ethiopia {
+    position: absolute;
+    top: 529px;
+    left: 865px;
+    font-size: 8px;
+}
+
+#Kenya {
+    position: absolute;
+    top: 562px;
+    left: 862px;
+    font-size: 7px;
+}
+
+#Uganda {
+    position: absolute;
+    top: 557px;
+    left: 838px;
+    font-size: 6px;
+}
+
+#Rwanda {
+    position: absolute;
+    top: 576px;
+    left: 833px;
+    font-size: 4px;
+}
+
+#Malawi {
+    position: absolute;
+    top: 623px;
+    left: 852px;
+    font-size: 5px;
+}
+
+#Zambia {
+    position: absolute;
+    top: 624px;
+    left: 815px;
+    font-size: 6px;
+}
+
+
+#Zimbabwe {
+    position: absolute;
+    top: 644px;
+    left: 825px;
+    font-size: 6px;
+}
+
+#SouthAfrica {
+    position: absolute;
+    top: 689px;
+    left: 798px;
+    font-size: 7px;
+}
+
+#Angola {
+    position: absolute;
+    top: 614px;
+    left: 780px;
+    font-size: 7px;
+}
+
+#Nigeria {
+    position: absolute;
+    top: 524px;
+    left: 740px;
+    font-size: 7px;
+}
+
+#TheGambia {
+    position: absolute;
+    top: 514px;
+    left: 640px;
+    font-size: 4px;
+}
+
+#Russia {
+    position: absolute;
+    top: 254px;
+    left: 1125px;
+    font-size: 14px;
+}
+
+#China {
+    position: absolute;
+    top: 410px;
+    left: 1140px;
+    font-size: 13px;
+}
+
+#Myanmar {
+    position: absolute;
+    top: 476px;
+    left: 1095px;
+    font-size: 7px;
+}
+
+#Thailand {
+    position: absolute;
+    top: 498px;
+    left: 1120px;
+    font-size: 6px;
+}
+
+#Cambodia {
+    position: absolute;
+    top: 514px;
+    left: 1129px;
+    font-size: 6px;
+}
+
+#Vietnam {
+    position: absolute;
+    top: 504px;
+    left: 1155px;
+    font-size: 6px;
+}
+
+#Malaysia {
+    position: absolute;
+    top: 539px;
+    left: 1130px;
+    font-size: 13px;
+}
+
+#Indonesia {
+    position: absolute;
+    top: 564px;
+    left: 1175px;
+    font-size: 15px;
+}
+
+#Australia {
+    position: absolute;
+    top: 654px;
+    left: 1235px;
+    font-size: 13px;
+}
+
+#Philippines {
+    position: absolute;
+    top: 512px;
+    left: 1190px;
+    font-size: 9px;
+}
+
+#SouthKorea {
+    position: absolute;
+    top: 412px;
+    left: 1220px;
+    font-size: 6px;
+}
+
+#Japan {
+    position: absolute;
+    top: 409px;
+    left: 1268px;
+    font-size: 8px;
+}
